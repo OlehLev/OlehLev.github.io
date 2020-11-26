@@ -1,4 +1,4 @@
-*{
+* {
     box-sizing: border-box;
 }
 
@@ -47,7 +47,7 @@ body {
 }
 
 .logo {
-    margin-top: 8px;;
+    margin-top: 8px;
 }
 
 .menu>li {
@@ -73,7 +73,7 @@ body {
     line-height: 50px;
     text-align: center;
     color: #2c71b8;
-    font-size: 21px;  
+    font-size: 21px;
 }
 
 .menu a:hover {
@@ -106,7 +106,7 @@ body {
     border: none;
     height: 40px;
     font-size: 21px;
-    color:  #2c71b8;
+    color: #2c71b8;
     font-family: 'Roboto', sans-serif;
     outline: none;
     padding-left: 19px;
@@ -115,8 +115,8 @@ body {
 
 .search::placeholder {
     font-size: 21px;
-    color:  #2c71b8;
-    font-family: 'Roboto', sans-serif; 
+    color: #2c71b8;
+    font-family: 'Roboto', sans-serif;
 }
 
 .button {
@@ -124,7 +124,7 @@ body {
     height: 30px;
     box-sizing: border-box;
     border: none;
-    background:#2c71b8 url(../demoShop/icon4.png) no-repeat 50% 50%;
+    background: #2c71b8 url(../demoShop/icon4.png) no-repeat 50% 50%;
     outline: none;
     float: right;
     margin-top: 4px;
@@ -147,6 +147,7 @@ body {
     background: white url(../demoShop/icon1.png) no-repeat 50% 50%;
     margin-top: 5px;
 }
+
 .product-count {
     height: 20px;
     width: 20px;
