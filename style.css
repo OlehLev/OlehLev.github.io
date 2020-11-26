@@ -146,6 +146,7 @@ body {
     height: 40px;
     background: white url(../demoShop/icon1.png) no-repeat 50% 50%;
     margin-top: 5px;
+    position: relative;
 }
 
 .product-count {
