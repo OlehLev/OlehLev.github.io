@@ -221,7 +221,6 @@ body {
 }
 
 .filtr {
-    height: 843px;
     background-color: rgba(255, 255, 255, 0.2);
 }
 
@@ -400,7 +399,6 @@ body {
 
 .mod-detal:hover {
     background-color: rgba(225, 225, 225, 0.2);
-    border: none;
 }
 
 .add-to {
@@ -433,4 +431,107 @@ body {
 
 .sreadcrumbs-home:hover {
     text-decoration: underline;
+}
+
+.loadMore {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 45px;
+}
+.loadMore > a {
+    text-decoration: none;
+    color: white;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.footer {
+    background-color: rgba(255, 255, 255, 0.75);
+    min-width: max-content;
+    padding: 40px 0 40px 0;
+}
+
+.copyright {
+    font-size: 21px;
+    text-align: center;
+    color: #2c71b8;
+}
+
+.check {
+    padding-left: 30px;
+    padding-top: 18px;
+    padding-bottom: 7px;
+}
+
+.checkbox {
+    display: none;
+}
+
+.box-checkbox {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.checktable:before {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.checkbox:checked + .checktable:before {
+    background-color: white;
+}
+
+.checktable > span {
+    padding-left: 15px;
+    color: white;
+    font-size: 21px;
+    width: 21px;
+    cursor: pointer;
+    vertical-align: text-bottom;
+}
+
+.texteria {
+    font-size: 21px;
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.ShowMore {
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.ShowMore > a{
+    color: white;
+    font-size: 21px;
+    text-decoration: none;
+}
+
+.mod-submit {
+    width: 210px;
+    height: 50px;
+    border: 1px solid white;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    background-color: #2c71b8;
+    margin-left: 30px;
+    font-size: 21px;
+    font-weight: 700;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    outline: none;
+    cursor: pointer;
+}
+
+.mod-submit:hover {
+    background-color: rgba(225, 225, 225, 0.2);
 }
